@@ -153,8 +153,6 @@ body{
     
  }
 
-
-
  #project-section #projects div p, span{
     color: #fff;
     
@@ -174,6 +172,11 @@ body{
    margin-top: 20px;
    padding: 10px 20px;
  }
+
+ #project-section #projects div #links a:hover {
+    opacity: 0.9;
+     transform: scale(0.98);
+  }
 
  #project-section #projects div #links a{
     border: rgb(143, 163, 122) 1px solid;
