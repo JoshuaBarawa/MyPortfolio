@@ -21,7 +21,7 @@
 This project is a landing page for my porfolio
 ## Visuals
 This is a screenshot of the webpage
-![Screenshot from 2021-09-30 14-49-13](https://user-images.githubusercontent.com/91249358/135449943-63c340b7-5a10-4e4b-9e7b-73cd5088c88b.png)
+![Screenshot from 2021-11-06 00-19-24](https://user-images.githubusercontent.com/91249358/140580617-d569cc86-c6e9-4193-bc91-e887427761fb.png)
 ## Contributors
 * Joshua Barawa
 ## Setup/Installation Requirements
