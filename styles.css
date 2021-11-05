@@ -24,6 +24,12 @@ body{
     align-items: center;
 }
 
+.navbar #menu{
+    cursor: pointer;
+    width: 60px;
+    display: none;
+}
+
 .navbar #logo{
     color:#fff;
     font-size: 36px;
@@ -42,12 +48,13 @@ body{
  color: #fff;
  padding: 0 20px;
  text-decoration: none;
- 
+ font-size: 20px;
 }
 
 /**********************INTRODUCTION SECTION ************************************/
 #hero{
     display: flex;
+  
 }
 
 #hero #intro {
@@ -81,7 +88,7 @@ body{
 /**********************ABOUT SECTION ************************************/
 #about-me{
     text-align:center;
-    
+    margin-bottom: 100px;
 }
 #about-me h2{
     color: #fff;
@@ -108,11 +115,11 @@ body{
    grid-gap: 50px;
 }
 
-.tech-skills #skills-section #front-end, #back-end{
+/* .tech-skills #skills-section #front-end, #back-end{
    border: #b4b1c4 1px solid;
    border-radius: 20px;
 
-    }
+    } */
 
  .tech-skills #skills-section #front-end ul li, #back-end ul li{
    color: #fff;
@@ -126,7 +133,8 @@ body{
     /**********************PROJECTS SECTION ************************************/
 
 #project-section{
-    text-align: center
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 #project-section h2{
@@ -192,6 +200,7 @@ body{
 #contact{
     text-align: center;
     color: #fff;
+    margin-bottom: 50px;
 }
 
 form .form-row{
@@ -233,12 +242,19 @@ form #btn:hover{
    color: #fff;
 }
 
+.navbar #nav .active{
+    display:inline-block;
+}
+
+
+
 
 
 /**********************FOOTER SECTION ************************************/
 footer{
     text-align: center;
     color: #fff;
+    margin-bottom: 100px;
 }
 
 @media only screen and (max-width: 1080px){
@@ -251,4 +267,57 @@ footer{
     #email, #name, textarea{
         width: 80%;
     }
+
+    /* .navbar #menu{
+        display: block;
+    }
+
+    .navbar #nav{
+        display: block;
+        float: left;
+        position: absolute;
+        left: 0;
+        top: 10%;
+        z-index: 1;
+    }
+
+    .navbar #nav li{
+        padding-bottom: 20px;
+        font-size: 24px;
+    } */
+
+    
+    
+}
+
+
+@media only screen and (max-width: 740px){
+    
+    .navbar #menu{
+        display: block;
+    }
+
+    .navbar #nav{
+        display: none;
+    }
+
+    .navbar #nav.responsive{
+        display: block;
+        float: left;
+        position: absolute;
+        left: 5%;
+        top: 10%;
+        z-index: 1;
+        background-color: rgb(11, 11, 36);
+        width: 80%;
+        
+    }
+
+    .navbar #nav li{
+        padding-bottom: 20px;
+        font-size: 24px;
+    }
+
+    
+    
 }

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-
+    
     <link rel="stylesheet" href="styles.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -17,12 +17,13 @@
     <div class="navbar">
         <h1 id="logo">Joshua</h1>
 
-        <ul id="nav">
+        <ul id="nav" id="navlinks">
      <li><a href="#hero">Home</a></li>
      <li><a href="#about-me">About</a></li>
      <li><a href="#project-section">Projects</a></li>
      <li><a href="#contact">Contact</a></li>
         </ul>
+        <img id="menu" src="images/icons8-menu-144.png" alt="" />
     </div>
 
 
@@ -159,6 +160,23 @@
     <footer>
         <p>Joshua.M.Barawa, All rights reserved. &copy; 2021</p>
     </footer>
+
+
+
+    <script>
+        document.getElementById("menu").addEventListener("click", function() {
+          var x = document.getElementById("nav");
+          if (x.className === "navlinks") {
+            x.className += " responsive";
+          } else {
+            x.className = "navlinks";
+          }
+        }) 
+        </script>
+
+
+
+
 
     <script>
         AOS.init({
