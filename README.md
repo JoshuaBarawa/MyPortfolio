@@ -8,6 +8,7 @@
       - [13/10/2021](#13/10/2021)
   - [Table of Content](#table-of-content)
   - [Description](#description)
+  -  - [Visuals](#visuals)
   - [Contributors](#contributors)
   - [Setup/Installation Requirements](#setupinstallation-requirements)
   - [Technologies Used](#technologies-used)
@@ -18,6 +19,9 @@
 
 ## Description
 This project is a landing page for my porfolio
+## Visuals
+This is a screenshot of the webpage
+![Screenshot from 2021-09-30 14-49-13](https://user-images.githubusercontent.com/91249358/135449943-63c340b7-5a10-4e4b-9e7b-73cd5088c88b.png)
 ## Contributors
 * Joshua Barawa
 ## Setup/Installation Requirements
