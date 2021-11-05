@@ -17,7 +17,7 @@
 
 
 ## Description
-This project is a ladning page for my porfolio
+This project is a landing page for my porfolio
 ## Contributors
 * Joshua Barawa
 ## Setup/Installation Requirements
