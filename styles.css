@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;500&display=swap');
 
 *{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }
 
 body{
@@ -11,17 +11,16 @@ body{
     background-color: #07041C;
 }
 
-.container{
-    padding:0 12%;
-    margin:0;
-}
 
 /**********************NAVBAR SECTION ************************************/
 .navbar{
-
     display:flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #291e6e;
+    padding: 15px 5%;
+    position: sticky;
+    top: 0px;
 }
 
 .navbar #menu{
@@ -32,7 +31,8 @@ body{
 
 .navbar #logo{
     color:#fff;
-    font-size: 36px;
+    font-size: 30px;
+    text-decoration: none;
 }
 
 .navbar #nav{
@@ -48,23 +48,31 @@ body{
  color: #fff;
  padding: 0 20px;
  text-decoration: none;
- font-size: 20px;
+ font-size: 18px;
 }
+
+.navbar #nav li a:hover{
+border-bottom: 4px #060e58 solid ;
+   }
 
 /**********************INTRODUCTION SECTION ************************************/
 #hero{
     display: flex;
-  
+    padding: 0px 5%;
+    min-height: 85vh;
 }
 
 #hero #intro {
     font-size:36px;
     color: #fff;
+    padding-top: 7%;
 }
 
-#hero #intro span{
-    font-size:24px;
+#hero #intro #greetings{
+    font-size:70px;
     color: #fff;
+    font-weight: bolder;
+    padding-bottom: 80px;
 }
 
 #hero #intro a{
@@ -74,7 +82,7 @@ body{
     border: none;
     border-radius: 10px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 20px;
     background-color: #1798B5;
 }
 
@@ -82,6 +90,12 @@ body{
    background: transparent;
     border: #fff 1px solid;
     color: #B21360;
+}
+
+#hero #image{
+    width: 50vw;
+    height: 80vh;
+    object-fit: inherit;
 }
 
 
