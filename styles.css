@@ -1,20 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Poppins:wght@400;500&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
-*{
+* {
     font-family: 'Nunito', sans-serif;
 }
 
-body{
+body {
     box-sizing: border-box;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
     background-color: #07041C;
 }
 
 
 /**********************NAVBAR SECTION ************************************/
-.navbar{
-    display:flex;
+.navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #291e6e;
@@ -23,60 +25,60 @@ body{
     top: 0px;
 }
 
-.navbar #menu{
+.navbar #menu {
     cursor: pointer;
     width: 60px;
     display: none;
 }
 
-.navbar #logo{
-    color:#fff;
+.navbar #logo {
+    color: #fff;
     font-size: 30px;
     text-decoration: none;
 }
 
-.navbar #nav{
-    display:flex;
+.navbar #nav {
+    display: flex;
 }
 
 .navbar #nav li {
-   list-style: none;
-   color: #fff;
-   }
-
-.navbar #nav li a{
- color: #fff;
- padding: 0 20px;
- text-decoration: none;
- font-size: 18px;
+    list-style: none;
+    color: #fff;
 }
 
-.navbar #nav li a:hover{
-border-bottom: 4px #060e58 solid ;
-   }
+.navbar #nav li a {
+    color: #fff;
+    padding: 0 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar #nav li a:hover {
+    border-bottom: 4px #060e58 solid;
+}
 
 /**********************INTRODUCTION SECTION ************************************/
-#hero{
+#hero {
     display: flex;
     padding: 0px 5%;
     min-height: 95vh;
 }
 
 #hero #intro {
-    font-size:30px;
+    font-size: 30px;
     color: #fff;
     padding-top: 7%;
 }
 
-#hero #intro #greetings{
-    font-size:70px;
+#hero #intro #greetings {
+    font-size: 70px;
     color: #fff;
     font-weight: bolder;
     padding-bottom: 80px;
 }
 
-#hero #intro a{
-    padding:5px 10px;
+#hero #intro a {
+    padding: 5px 10px;
     color: #fff;
     border: white 1px solid;
     border: none;
@@ -86,13 +88,13 @@ border-bottom: 4px #060e58 solid ;
     background-color: #1798B5;
 }
 
-#hero #intro a:hover{
-   background: transparent;
+#hero #intro a:hover {
+    background: transparent;
     border: #fff 1px solid;
     color: #B21360;
 }
 
-#hero #image{
+#hero #image {
     width: 50vw;
     height: 90vh;
     object-fit: inherit;
@@ -100,104 +102,106 @@ border-bottom: 4px #060e58 solid ;
 
 
 /**********************ABOUT SECTION ************************************/
-#about-me{
+#about-me {
     display: flex;
     padding: 0px 2%;
     min-height: 90vh;
 }
 
-#about-me #image{
+#about-me #image {
     width: 50vw;
     height: 90vh;
     object-fit: inherit;
 
 }
-#about-me h2{
+
+#about-me h2 {
     color: #fff;
     font-size: 50px;
     font-weight: bolder;
 }
 
-#about-me p{
+#about-me p {
     color: #fff;
     font-size: 16px;
 }
 
-#tech-skills{
+#tech-skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
     grid-gap: 5px;
-   
+
 
 }
-#skill{
+
+#skill {
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #fff;
 }
 
-#skill-icon{
-   width: 60px;
+#skill-icon {
+    width: 60px;
 }
 
-#list-item{
+#list-item {
     list-style: none;
     color: #fff;
     font-size: 22px;
-    padding: 5px 0px ;
+    padding: 5px 0px;
 }
 
-    /**********************PROJECTS SECTION ************************************/
+/**********************PROJECTS SECTION ************************************/
 
-#project-section{
-  padding: 0px 5%;
-  min-height: 90vh;
+#project-section {
+    padding: 0px 5%;
+    min-height: 90vh;
 }
 
-#project-section #heading{
+#project-section #heading {
     font-size: 45px;
     color: rgb(255, 255, 255);
     font-weight: bolder;
 }
 
 #project-section #projects {
-   display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-   grid-gap: 20px;
-   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+
 }
 
-#project-section #projects #project{
-  border-radius: 5px;
-  background-color: #060e58;
-  min-height: 60vh;
+#project-section #projects #project {
+    border-radius: 5px;
+    background-color: #060e58;
+    min-height: 60vh;
 }
 
-#project-section #projects div img{
-    width: 100%;  
+#project-section #projects div img {
+    width: 100%;
     object-fit: contain;
- }
+}
 
- #project-section #projects #project #description{
-  display: flex;
-  flex-direction: column;
-  padding: 0px 5px;
-  text-align: center;
- }
+#project-section #projects #project #description {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+    text-align: center;
+}
 
- #project-section #projects #project #project-name{
+#project-section #projects #project #project-name {
     color: #fff;
     font-size: 25px;
     font-weight: bold;
- }
+}
 
- #project-section #projects #project p{
+#project-section #projects #project p {
     color: rgb(197, 191, 191);
-    font-size: 16px; 
- }
+    font-size: 16px;
+}
 
- #project-section #projects a{
+#project-section #projects a {
     border: rgb(117, 88, 199) 1px solid;
     border-radius: 5px;
     text-decoration: none;
@@ -208,99 +212,122 @@ border-bottom: 4px #060e58 solid ;
     font-weight: bolder;
     text-transform: uppercase;
     padding: 7px 15px;
-  }
- 
-   
- #project-section #projects a:hover {
+}
+
+
+#project-section #projects a:hover {
     opacity: 0.9;
-     transform: scale(0.98);
-  }
+    transform: scale(0.98);
+}
 
 
 
 
-     /**********************ACHIEVEMENTS SECTION ************************************/
+/**********************ACHIEVEMENTS SECTION ************************************/
 
-#achievements-section{
+#achievements-section {
     padding: 0px 5%;
     min-height: 90vh;
-  }
-  
-  #achievements-section #heading{
-      font-size: 45px;
-      color: rgb(255, 255, 255);
-      font-weight: bolder;
-  }
-  
-  #achievements-section #achievements {
+}
+
+#achievements-section #heading {
+    font-size: 45px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+#achievements-section #achievements {
     display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
-   grid-gap: 20px;
-  }
-  
-  #achievements-section #achievements #achievement{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-gap: 20px;
+}
+
+#achievements-section #achievements #achievement {
     border-radius: 5px;
     background-color: #060e58;
     min-height: 60vh;
-  }
-  
-  #achievements-section #achievements div img{
-      width: 100%;  
-      object-fit: contain;
-   }
-  
-   #achievements-section #achievements #achievement #description{
+}
+
+#achievements-section #achievements div img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#achievements-section #achievements #achievement #description {
     display: flex;
     flex-direction: column;
     padding: 0px 5px;
     text-align: center;
-   }
-  
-   #achievements-section #achievements #achievement #achievement-name{
-      color: #fff;
-      font-size: 25px;
-      font-weight: bold;
-   }
-  
-   #achievements-section #achievements #achievement p{
-      color: rgb(197, 191, 191);
-      font-size: 16px; 
-   }
-  
-   #achievements-section #achievements a{
-      border: rgb(117, 88, 199) 1px solid;
-      border-radius: 5px;
-      text-decoration: none;
-      color: #fff;
-      margin: auto !important;
-      text-align: center !important;
-      font-size: 24px;
-      font-weight: bolder;
-      text-transform: uppercase;
-      padding: 7px 15px;
-    }
-   
-     
-   #achievements-section #achievements a:hover {
-      opacity: 0.9;
-       transform: scale(0.98);
-    }
+}
+
+#achievements-section #achievements #achievement #achievement-name {
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#achievements-section #achievements #achievement p {
+    color: rgb(197, 191, 191);
+    font-size: 16px;
+}
+
+#achievements-section #achievements a {
+    border: rgb(117, 88, 199) 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: auto !important;
+    text-align: center !important;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 7px 15px;
+}
+
+
+#achievements-section #achievements a:hover {
+    opacity: 0.9;
+    transform: scale(0.98);
+}
 
 /**********************CONTACT SECTION ************************************/
-#contact{
-    text-align: center;
+#contact {
     color: #fff;
-    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+    min-width: 90vh;
 }
 
-form .form-row{
-    display:flex;
+#info1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#info2{
+    font-size: 20px;
+}
+
+#info3{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+#info4{
+    font-size: 20px;
+}
+
+form .form-row {
+    display: flex;
     flex-direction: column;
-    justify-content:center;
-    align-items:center;
+    justify-content: center;
+    align-items: center;
 }
 
-#email, #name , textarea {
+#email,
+#name,
+textarea {
     width: 50%;
     margin-top: 10px;
     margin-bottom: 5px;
@@ -310,30 +337,32 @@ form .form-row{
 
 }
 
-#email, #name , textarea:focus {
+#email,
+#name,
+textarea:focus {
     outline: none;
 }
 
-form #btn{
+form #btn {
     margin-top: 20px;
     border: none;
     text-align: center;
-     font-size: 18px;
+    font-size: 18px;
     padding: 10px 60px;
-  border-radius: 25px;
-  background-color: #1798B5;
-  cursor: pointer;
-  
+    border-radius: 25px;
+    background-color: #1798B5;
+    cursor: pointer;
+
 }
 
-form #btn:hover{
-   background: transparent;
-   border: #b4b1c4 1px solid;
-   color: #fff;
+form #btn:hover {
+    background: transparent;
+    border: #b4b1c4 1px solid;
+    color: #fff;
 }
 
-.navbar #nav .active{
-    display:inline-block;
+.navbar #nav .active {
+    display: inline-block;
 }
 
 
@@ -341,20 +370,24 @@ form #btn:hover{
 
 
 /**********************FOOTER SECTION ************************************/
-footer{
+footer {
     text-align: center;
     color: #fff;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    font-size: 20px;
 }
 
-@media only screen and (max-width: 1080px){
-   #hero{
-       flex-direction: column-reverse;
-   }
+@media only screen and (max-width: 1080px) {
+    #hero {
+        flex-direction: column-reverse;
+    }
 }
 
-@media only screen and (max-width: 800px){
-    #email, #name, textarea{
+@media only screen and (max-width: 800px) {
+
+    #email,
+    #name,
+    textarea {
         width: 80%;
     }
 
@@ -376,22 +409,22 @@ footer{
         font-size: 24px;
     } */
 
-    
-    
+
+
 }
 
 
-@media only screen and (max-width: 740px){
-    
-    .navbar #menu{
+@media only screen and (max-width: 740px) {
+
+    .navbar #menu {
         display: block;
     }
 
-    .navbar #nav{
+    .navbar #nav {
         display: none;
     }
 
-    .navbar #nav.responsive{
+    .navbar #nav.responsive {
         display: block;
         float: left;
         position: absolute;
@@ -400,14 +433,14 @@ footer{
         z-index: 1;
         background-color: rgb(11, 11, 36);
         width: 80%;
-        
+
     }
 
-    .navbar #nav li{
+    .navbar #nav li {
         padding-bottom: 20px;
         font-size: 24px;
     }
 
-    
-    
+
+
 }
