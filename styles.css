@@ -65,7 +65,7 @@ body {
 }
 
 #hero #intro {
-    font-size: 30px;
+    font-size: 27px;
     color: #fff;
     padding-top: 7%;
 }
@@ -98,6 +98,31 @@ body {
     width: 50vw;
     height: 90vh;
     object-fit: inherit;
+}
+
+#social-links{
+    display: flex;
+    align-items: center;
+}
+
+#social-link{
+    width: 60px;
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+
+#hero-btn{
+
+    border: rgb(117, 88, 199) 1px solid;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    margin: auto !important;
+    text-align: center !important;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 7px 15px;
 }
 
 
@@ -242,53 +267,12 @@ body {
     grid-gap: 20px;
 }
 
-#achievements-section #achievements #achievement {
-    border-radius: 5px;
-    background-color: #060e58;
-    min-height: 60vh;
-}
-
 #achievements-section #achievements div img {
     width: 100%;
     object-fit: contain;
 }
 
-#achievements-section #achievements #achievement #description {
-    display: flex;
-    flex-direction: column;
-    padding: 0px 5px;
-    text-align: center;
-}
 
-#achievements-section #achievements #achievement #achievement-name {
-    color: #fff;
-    font-size: 25px;
-    font-weight: bold;
-}
-
-#achievements-section #achievements #achievement p {
-    color: rgb(197, 191, 191);
-    font-size: 16px;
-}
-
-#achievements-section #achievements a {
-    border: rgb(117, 88, 199) 1px solid;
-    border-radius: 5px;
-    text-decoration: none;
-    color: #fff;
-    margin: auto !important;
-    text-align: center !important;
-    font-size: 24px;
-    font-weight: bolder;
-    text-transform: uppercase;
-    padding: 7px 15px;
-}
-
-
-#achievements-section #achievements a:hover {
-    opacity: 0.9;
-    transform: scale(0.98);
-}
 
 /**********************CONTACT SECTION ************************************/
 #contact {
@@ -296,7 +280,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 0px 5%;
-    min-width: 90vh;
+    padding-top: 50px;
 }
 
 #info1{
@@ -328,12 +312,12 @@ form .form-row {
 #email,
 #name,
 textarea {
-    width: 50%;
+    width: 80%;
     margin-top: 10px;
     margin-bottom: 5px;
     padding: 10px 12px;
     border: none;
-    border-radius: 15px;
+    border-radius: 5px;
 
 }
 
@@ -348,10 +332,11 @@ form #btn {
     border: none;
     text-align: center;
     font-size: 18px;
-    padding: 10px 60px;
-    border-radius: 25px;
+    padding: 7px 60px;
+    border-radius: 5px;
     background-color: #1798B5;
     cursor: pointer;
+    margin: auto !important;
 
 }
 
