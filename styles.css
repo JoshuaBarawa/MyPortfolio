@@ -20,7 +20,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: #291e6e;
-    padding: 15px 5%;
+    padding: 5px 10%;
     position: sticky;
     top: 0px;
 }
@@ -33,7 +33,7 @@ body {
 
 .navbar #logo {
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -50,7 +50,7 @@ body {
     color: #fff;
     padding: 0 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .navbar #nav li a:hover {
@@ -60,18 +60,23 @@ body {
 /**********************INTRODUCTION SECTION ************************************/
 #hero {
     display: flex;
-    padding: 0px 5%;
+    padding: 0px 10%;
     min-height: 95vh;
+}
+
+#hero div {
+    margin: auto;
 }
 
 #hero #intro {
     font-size: 27px;
     color: #fff;
     padding-top: 7%;
+
 }
 
 #hero #intro #greetings {
-    font-size: 70px;
+    font-size: 50px;
     color: #fff;
     font-weight: bolder;
     padding-bottom: 80px;
@@ -95,23 +100,23 @@ body {
 }
 
 #hero #image {
-    width: 50vw;
-    height: 90vh;
+    width: 40vw;
+    height: 80vh;
     object-fit: inherit;
 }
 
-#social-links{
+#social-links {
     display: flex;
     align-items: center;
 }
 
-#social-link{
+#social-link {
     width: 60px;
     margin-bottom: 50px;
     margin-right: 10px;
 }
 
-#hero-btn{
+#hero-btn {
 
     border: rgb(117, 88, 199) 1px solid;
     border-radius: 5px;
@@ -129,15 +134,14 @@ body {
 /**********************ABOUT SECTION ************************************/
 #about-me {
     display: flex;
-    padding: 0px 2%;
+    padding: 0px 8%;
     min-height: 90vh;
 }
 
 #about-me #image {
-    width: 50vw;
-    height: 90vh;
+    width: 40vw;
+    height: 80vh;
     object-fit: inherit;
-
 }
 
 #about-me h2 {
@@ -153,10 +157,8 @@ body {
 
 #tech-skills {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
     grid-gap: 5px;
-
-
 }
 
 #skill {
@@ -167,13 +169,18 @@ body {
 }
 
 #skill-icon {
-    width: 60px;
+    width: 40px;
+}
+
+#skill-list{
+    background-color: red;
+    padding: none !important;
 }
 
 #list-item {
     list-style: none;
     color: #fff;
-    font-size: 22px;
+    font-size: 20px;
     padding: 5px 0px;
 }
 
@@ -283,22 +290,22 @@ body {
     padding-top: 50px;
 }
 
-#info1{
+#info1 {
     font-size: 40px;
     font-weight: bolder;
 }
 
-#info2{
+#info2 {
     font-size: 20px;
 }
 
-#info3{
+#info3 {
     font-size: 20px;
     display: flex;
     align-items: center;
 }
 
-#info4{
+#info4 {
     font-size: 20px;
 }
 
@@ -362,9 +369,28 @@ footer {
     font-size: 20px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 880px) {
     #hero {
         flex-direction: column-reverse;
+        padding: 0px 6%;
+    }
+
+    #hero #image {
+        width: 90vw;
+        height: 100vh;
+        object-fit: inherit;
+    }
+
+    #about-me {
+        flex-direction: column;
+        padding: 0px 6%;
+    }
+
+    #about-me #image {
+        width: 90vw;
+        height: 100vh;
+        object-fit: inherit;
+
     }
 }
 
@@ -376,33 +402,20 @@ footer {
         width: 80%;
     }
 
-    /* .navbar #menu{
-        display: block;
-    }
-
-    .navbar #nav{
-        display: block;
-        float: left;
-        position: absolute;
-        left: 0;
-        top: 10%;
-        z-index: 1;
-    }
-
-    .navbar #nav li{
-        padding-bottom: 20px;
-        font-size: 24px;
-    } */
-
 
 
 }
 
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 860px) {
+
+    .navbar {
+        padding: 10px 6%;
+    }
 
     .navbar #menu {
         display: block;
+        width: 40px;
     }
 
     .navbar #nav {
