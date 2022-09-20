@@ -158,7 +158,7 @@ body {
 #tech-skills {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-    grid-gap: 5px;
+    grid-gap: 10px;
 }
 
 #skill {
@@ -172,8 +172,7 @@ body {
     width: 40px;
 }
 
-#skill-list{
-    background-color: red;
+#skill-list {
     padding: none !important;
 }
 
@@ -390,7 +389,33 @@ footer {
         width: 90vw;
         height: 100vh;
         object-fit: inherit;
+    }
 
+    #about-me h2 {
+        text-align: center;
+    }
+
+    #project-section #heading {
+        text-align: center;
+    }
+
+    #contact {
+        flex-direction: column;
+    }
+
+    #info1 {
+        text-align: center;
+    }
+    #email,
+    #name,
+    textarea {
+        width: 95% !important;
+    }
+
+
+    form #btn {
+        margin: auto !important;
+        
     }
 }
 
